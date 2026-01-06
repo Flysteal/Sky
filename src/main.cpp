@@ -1,10 +1,19 @@
 #include <iostream>
-#include <ostream>
+#include <stdexcept>
+#include "Application.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
-    return 0;
-}
+    try
+    {
+        sky::Application App{{"Sky", 800, 600, true}};
+        App.Run();
+    }
+    catch (const std::exception& e)
+    {
+        std::cerr << e.what() << std::endl;
+        return EXIT_FAILURE;
+    }
 
-// Created by fly on 07.12.2025.
+    return EXIT_SUCCESS;
+}
