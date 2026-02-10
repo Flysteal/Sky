@@ -1,59 +1,49 @@
-#ifndef WINDOW_H
-#define WINDOW_H
+#pragma once
 
+#include <vulkan/vulkan.h>
 #define GLFW_INCLUDE_VULKAN
 #include <GLFW/glfw3.h>
-#include <stdexcept>
 
-
-namespace sky
+class Window
 {
-    struct WindowInfo
+public:
+    Window()
+        :m_window(nullptr)
     {
-        const char* name;
-        uint32_t width;
-        uint32_t height;
-    };
-    class Window
+        if (!glfwInit())
+        {
+            throw std::runtime_error("Failed to init GLFW !!");
+        }
+
+        glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
+        glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);   
+    }
+
+    void Init(const uint32_t& width , const uint32_t& height)
     {
-    public:
-        Window(const WindowInfo& info)
-            :m_window{nullptr}
+        m_window = glfwCreateWindow(width, height, "SkyLands", nullptr, nullptr);
+
+        if (!m_window)
         {
-            Init(info);
+            throw std::runtime_error("Failed to init WINDOW !!");
         }
+    }
 
-        GLFWwindow* Get()
-        {
-            return m_window;
-        }
+    GLFWwindow* Get()
+    {
+        return m_window;
+    }
 
-        void Destroy()
-        {
-            glfwDestroyWindow(m_window);
-            glfwTerminate();
-        }
+    void Destroy()
+    {
+        glfwDestroyWindow(m_window);
+    }
 
-    private:
-        GLFWwindow* m_window;
+    void Terminate()
+    {
+        glfwTerminate();
+    }
 
-        void Init(const WindowInfo& info)
-        {
-            if(!glfwInit())
-            {
-                throw std::runtime_error("failed to glfwInit");
-            }
-
-            glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
-            glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
-
-            m_window = glfwCreateWindow(info.width, info.height, info.name, nullptr, nullptr);
-            if (nullptr == m_window)
-            {
-                throw std::runtime_error("failed to crate m_window");
-            }
-        }
-    };
-}//sky
-
-#endif//WINDOW_H
+private:
+    GLFWwindow* m_window;
+};

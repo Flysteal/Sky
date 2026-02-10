@@ -1,0 +1,2 @@
+glslc /home/fly/Documents/Sky/shaders/fragment.frag -o /home/fly/Documents/Sky/shaders/bin/fragment.frag.spv
+glslc /home/fly/Documents/Sky/shaders/vertex.vert -o /home/fly/Documents/Sky/shaders/bin/vertex.vert.spv
