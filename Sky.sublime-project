@@ -2,7 +2,9 @@
     "folders":
     [
         {
-            "path": "."
+            "path": ".",
+            "folder_exclude_patterns": ["build", ".github", ".gitignore"],
+            "file_exclude_patterns": [".gitignore", "LICENSE", "README.md"],
         }
     ]
 }

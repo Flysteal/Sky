@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"wind",
+				"m_window"
+			],
+			[
 				"ios",
 				"iostream>"
 			],
@@ -188,7 +192,7 @@
 			],
 			[
 				"Packages/User/Sky.sublime-build",
-				"Run"
+				"Build"
 			]
 		],
 		[
@@ -232,13 +236,21 @@
 			]
 		]
 	],
-	"build_varint": "",
+	"build_varint": "Build",
 	"command_palette":
 	{
 		"height": 0.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"set syntac",
+				"Set Syntax: C++"
+			],
+			[
+				"pkg ins",
+				"Package Control: Install Package"
+			],
 			[
 				"pkg",
 				"Package Control: Install Package"
@@ -280,10 +292,6 @@
 				"Bookmarks: Toggle"
 			],
 			[
-				"set syntac",
-				"Set Syntax: C++"
-			],
-			[
 				"set sync",
 				"Set Syntax: C++"
 			],
@@ -294,10 +302,6 @@
 			[
 				"set syntax c",
 				"Set Syntax: C"
-			],
-			[
-				"pkg ins",
-				"Package Control: Install Package"
 			],
 			[
 				"pkg i",
@@ -322,8 +326,31 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/fly/Documents/Sky",
+		"/home/fly/Documents/Sky/App",
+		"/home/fly/Documents/Sky/shaders",
+		"/home/fly/Documents/Sky/shaders/bin",
+		"/home/fly/Documents/Sky/Visual",
+		"/home/fly/Documents/Sky/Vulkan"
+	],
 	"file_history":
 	[
+		"/home/fly/Documents/Sky/Visual/Visual.cpp",
+		"/home/fly/Documents/Sky/Vulkan/Vulkan.cpp",
+		"/home/fly/Documents/Sky/Vulkan/Vulkan.h",
+		"/home/fly/Documents/Sky/Visual/Window.cpp",
+		"/home/fly/Documents/Sky/Visual/Window.h",
+		"/home/fly/Documents/Sky/App/main.cpp",
+		"/home/fly/Documents/Sky/shaders/default.frag",
+		"/home/fly/Documents/Sky/shaders/default.vert",
+		"/home/fly/Documents/Sky/Visual/Visual.h",
+		"/home/fly/.config/wofi/style.css",
+		"/home/fly/.config/wofi/config",
+		"/boot/limine/limine.conf",
+		"/home/fly/Documents/Sky/Sky.sublime-project",
+		"/home/fly/Documents/Sky/.github/ISSUE_TEMPLATE/bug_report.md",
 		"/home/fly/Documents/Sky-v2/Vulkan/Vulkan.cpp",
 		"/home/fly/Documents/Sky-v2/Vulkan/Vulkan.h",
 		"/home/fly/Documents/Sky-v2/Visual/Visual.cpp",
@@ -359,7 +386,6 @@
 		"/home/fly/Documents/Sky/shaders/compile.sh",
 		"/home/fly/Documents/Sky/src/main.cpp",
 		"/home/fly/Documents/Sky/include/Surface.h",
-		"/home/fly/Documents/Sky/Sky.sublime-project",
 		"/home/fly/Documents/Sky/include/Vulkan.h",
 		"/home/fly/Templates/omarchy-mepn-theme/hyprland.conf",
 		"/home/fly/.config/hypr/hyprland.conf",
@@ -438,20 +464,11 @@
 		"/home/fly/Documents/Moto/t2/Motorola_G8_Plus_XT2019-2_DS_RETBR_DOHA_QPIS30.28-Q3-28-26-1/How to Flash.txt",
 		"/home/fly/Documents/Moto/bootimg/ramdisk/init.rc",
 		"/home/fly/Documents/Moto/bootimg/ramdisk/fstab.qcom",
-		"/home/fly/.config/ghostty/config",
-		"/home/fly/Documents/Moto/t1/Firmware/flashfile.bat",
-		"/home/fly/Documents/Moto/t1/Motorola_Moto_G9_Plus_XT2087-1_ODESSA_RETAIL_QPA30.19-Q3-32-50_LATAM_(by_motostockrom.com)/Motorola_Moto_G9_Plus_XT2087-1_ODESSA_RETAIL_QPA30.19-Q3-32-50_LATAM/How to Flash.txt",
-		"/home/fly/Documents/Samasung/dumpstate-2026-01-26-17-49-13/dumpstate-2026-01-26-17-49-13.txt",
-		"/home/fly/Documents/doker/Moto/kernel/kernel-msm-MMI-QPIS30.28-Q3-28-26-4-1-4/kernel/taskstats.c",
-		"/home/fly/Documents/doker/Moto/kernel/kernel-msm-MMI-QPIS30.28-Q3-28-26-4-1-4/mm/huge_memory.c",
-		"/home/fly/Documents/doker/Moto/kernel/kernel-msm-MMI-QPIS30.28-Q3-28-26-4-1-4/mm/memory.c",
-		"/home/fly/.config/omarchy/current/theme/alacritty.toml",
-		"/home/fly/.config/alacritty/alacritty.toml",
-		"/home/fly/Documents/doker/Moto/Dockerfile"
+		"/home/fly/.config/ghostty/config"
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -466,6 +483,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"m_height",
+			"D",
+			"starts",
+			"Window",
+			"Draw",
+			"u",
+			"}",
+			"gitignore",
 			"Vulkan",
 			"Visuals",
 			"retrn",
@@ -583,7 +608,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 36.0
+		"height": 35.0
 	},
 	"input":
 	{
@@ -628,7 +653,7 @@
 	},
 	"output.exec":
 	{
-		"height": 322.0,
+		"height": 53.0,
 		"history":
 		[
 		]
@@ -651,7 +676,7 @@
 	"project": "Sky.sublime-project",
 	"replace":
 	{
-		"height": 392.0
+		"height": 378.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -662,7 +687,19 @@
 		[
 			[
 				"app",
-				"include/App.h"
+				"App/main.cpp"
+			],
+			[
+				"ma",
+				"App/main.cpp"
+			],
+			[
+				"vis",
+				"Visual/Visual.h"
+			],
+			[
+				"vulka",
+				"Vulkan/Vulkan.cpp"
 			],
 			[
 				"re",
@@ -727,10 +764,6 @@
 			[
 				"bu",
 				"build.sh"
-			],
-			[
-				"ma",
-				"src/main.cpp"
 			],
 			[
 				"mai",
