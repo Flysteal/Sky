@@ -1,2 +1,2 @@
 # Sky
-Simple Vk engine
+Simple Vk app
