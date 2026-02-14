@@ -25,6 +25,7 @@ endif()
 add_executable(SkyLands)
 
 file(GLOB SRC "${CMAKE_SOURCE_DIR}/App/*.cpp"
+              "${CMAKE_SOURCE_DIR}/main.cpp"
               "${CMAKE_SOURCE_DIR}/Vulkan/*.cpp"
               "${CMAKE_SOURCE_DIR}/Visual/*.cpp")
 target_sources(SkyLands PRIVATE ${SRC})
