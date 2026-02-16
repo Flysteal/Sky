@@ -5,6 +5,7 @@
 #include <vulkan/vulkan_core.h>
 #include <vector>
 #include "DebugUtils.h"
+#include "GraphicsPipeline.h"
 
 
 namespace Visuals

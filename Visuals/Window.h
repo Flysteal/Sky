@@ -27,19 +27,25 @@ namespace Visuals
 
     namespace Window
     {
-        void Create(GLFWwindow* window, uint32_t height, uint32_t width, const char* name)
+        void Create(GLFWwindow*& window, uint32_t height, uint32_t width, const char* name)
         {
             window = glfwCreateWindow(width, height, name, nullptr, nullptr);
 
             if (!window)
             {
+                glfwTerminate();
                 throw std::runtime_error("Failed to create WINDOW instance !");
             }
+
+            glfwMakeContextCurrent(window);
         }
 
         void Destroy(GLFWwindow* window)
         {
-            glfwDestroyWindow(window);
+            if (nullptr != window)
+            {
+                glfwDestroyWindow(window); 
+            }
         } 
     }
 }

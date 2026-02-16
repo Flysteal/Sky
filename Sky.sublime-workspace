@@ -4,12 +4,152 @@
 		"selected_items":
 		[
 			[
-				"wind",
-				"m_window"
+				"D",
+				"Draw"
+			],
+			[
+				"grap",
+				"graphicsQueue"
+			],
+			[
+				"Co",
+				"CommandBuffer"
+			],
+			[
+				"de",
+				"device"
 			],
 			[
 				"ios",
 				"iostream>"
+			],
+			[
+				"ren",
+				"renderPass"
+			],
+			[
+				"C",
+				"Create"
+			],
+			[
+				"pip",
+				"pipelineLayout"
+			],
+			[
+				"pre",
+				"presentQueue"
+			],
+			[
+				"op",
+				"optional>"
+			],
+			[
+				"inc",
+				"inc\t#include \"…\""
+			],
+			[
+				"De",
+				"DebugUtils"
+			],
+			[
+				"Des",
+				"Destroy"
+			],
+			[
+				"app",
+				"appInfo"
+			],
+			[
+				"m",
+				"m_name"
+			],
+			[
+				"mw",
+				"m_width"
+			],
+			[
+				"ui",
+				"uint32_t"
+			],
+			[
+				"uin",
+				"uint32_t"
+			],
+			[
+				"VkSure",
+				"VkSurfaceKHR"
+			],
+			[
+				"st",
+				"struct"
+			],
+			[
+				"Cre",
+				"CreateSurface"
+			],
+			[
+				"m_de",
+				"m_Device"
+			],
+			[
+				"Vks",
+				"VkSurfaceKHR"
+			],
+			[
+				"su",
+				"m_surface"
+			],
+			[
+				"text",
+				"text_border_color"
+			],
+			[
+				"te",
+				"text_color"
+			],
+			[
+				"p",
+				"pMessage"
+			],
+			[
+				"RE",
+				"RESET"
+			],
+			[
+				"cs",
+				"cstdio>"
+			],
+			[
+				"Nu",
+				"NULL"
+			],
+			[
+				"cre",
+				"createInfo"
+			],
+			[
+				"s",
+				"size"
+			],
+			[
+				"uint",
+				"uint32_t"
+			],
+			[
+				"c",
+				"char"
+			],
+			[
+				"V",
+				"Vulkan"
+			],
+			[
+				"ch",
+				"char"
+			],
+			[
+				"wind",
+				"m_window"
 			],
 			[
 				"Vulkan",
@@ -24,10 +164,6 @@
 				"vertShaderCode"
 			],
 			[
-				"De",
-				"Device"
-			],
-			[
 				"Vk",
 				"VkFormat"
 			],
@@ -38,14 +174,6 @@
 			[
 				"pr",
 				"private"
-			],
-			[
-				"m",
-				"m_Window"
-			],
-			[
-				"inc",
-				"inc\t#include \"…\""
 			],
 			[
 				"m_",
@@ -72,10 +200,6 @@
 				"ValidationLayers"
 			],
 			[
-				"V",
-				"ValidationLayers"
-			],
-			[
 				"target_",
 				"target_link_libraries"
 			],
@@ -86,10 +210,6 @@
 			[
 				"camke",
 				"cmake_minimum_required\tbuiltin"
-			],
-			[
-				"de",
-				"Device"
 			],
 			[
 				"devi",
@@ -128,10 +248,6 @@
 				"WindowInfo"
 			],
 			[
-				"C",
-				"CreateInstance"
-			],
-			[
 				"Vali",
 				"Validation"
 			],
@@ -151,6 +267,131 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Visuals/Visuals.h",
+			"settings":
+			{
+				"buffer_size": 5269,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					42,
+					1,
+					"unindent",
+					null,
+					"AwAAALAGAAAAAAAAsAYAAAAAAAAEAAAAICAgIFEHAAAAAAAAUQcAAAAAAAAEAAAAICAgICAIAAAAAAAAIAgAAAAAAAAEAAAAICAgIA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAMAAADaBgAAAAAAANoGAAAAAAAAAAAAAAAA8L9/BwAAAAAAAH8HAAAAAAAAAAAAAAAA8L9TCAAAAAAAAFMIAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					49,
+					1,
+					"left_delete",
+					null,
+					"AQAAAL0IAAAAAAAAvQgAAAAAAAABAAAACg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC+CAAAAAAAAL4IAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					52,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAGcJAAAAAAAAcAkAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABnCQAAAAAAAGcJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					54,
+					1,
+					"",
+					null,
+					"AQAAAHAJAAAAAAAAlAkAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABwCQAAAAAAAHAJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					55,
+					1,
+					"left_delete",
+					null,
+					"AQAAAJMJAAAAAAAAkwkAAAAAAAABAAAACg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACUCQAAAAAAAJQJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					57,
+					1,
+					"insert",
+					{
+						"characters": " //"
+					},
+					"AwAAAJMJAAAAAAAAlAkAAAAAAAAAAAAAlAkAAAAAAACVCQAAAAAAAAAAAACVCQAAAAAAAJYJAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACTCQAAAAAAAJMJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					58,
+					1,
+					"insert",
+					{
+						"characters": " to"
+					},
+					"AwAAAJYJAAAAAAAAlwkAAAAAAAAAAAAAlwkAAAAAAACYCQAAAAAAAAAAAACYCQAAAAAAAJkJAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACWCQAAAAAAAJYJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					59,
+					1,
+					"insert",
+					{
+						"characters": " do"
+					},
+					"AwAAAJkJAAAAAAAAmgkAAAAAAAAAAAAAmgkAAAAAAACbCQAAAAAAAAAAAACbCQAAAAAAAJwJAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACZCQAAAAAAAJkJAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"file": "Visuals/SwapChain.h",
+			"redo_stack":
+			[
+				[
+					61,
+					1,
+					"unindent",
+					null,
+					"AQAAAJANAAAAAAAAlA0AAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB9DgAAAAAAAH0OAAAAAAAAAAAAAAAA8L8"
+				]
+			],
+			"settings":
+			{
+				"buffer_size": 14093,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					17,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAAIEOAAAAAAAAgg4AAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACBDgAAAAAAAIEOAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					60,
+					1,
+					"left_delete",
+					null,
+					"AQAAAIEOAAAAAAAAgQ4AAAAAAAABAAAALA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACCDgAAAAAAAIIOAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		}
 	],
 	"build_system": "Packages/User/Sky.sublime-build",
 	"build_system_choices":
@@ -192,7 +433,7 @@
 			],
 			[
 				"Packages/User/Sky.sublime-build",
-				"Build"
+				"Run"
 			]
 		],
 		[
@@ -236,13 +477,49 @@
 			]
 		]
 	],
-	"build_varint": "Build",
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 0.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"set ",
+				"Set Syntax: C"
+			],
+			[
+				"glsl",
+				"Set Syntax: GLSL"
+			],
+			[
+				"pkg in",
+				"Package Control: Install Package"
+			],
+			[
+				"pkg install",
+				"Package Control: Install Package"
+			],
+			[
+				"set sy c",
+				"Set Syntax: C++"
+			],
+			[
+				"s",
+				"Set Syntax: C"
+			],
+			[
+				"pkg",
+				"Package Control: Install Package"
+			],
+			[
+				"vis",
+				"View: Toggle Side Bar"
+			],
+			[
+				"de",
+				"Plugin Development: Profile Events"
+			],
 			[
 				"set syntac",
 				"Set Syntax: C++"
@@ -252,16 +529,8 @@
 				"Package Control: Install Package"
 			],
 			[
-				"pkg",
-				"Package Control: Install Package"
-			],
-			[
 				"lsp",
 				"Preferences: LSP Utils Settings"
-			],
-			[
-				"pkg in",
-				"Package Control: Install Package"
 			],
 			[
 				"pk",
@@ -329,27 +598,54 @@
 	"expanded_folders":
 	[
 		"/home/fly/Documents/Sky",
-		"/home/fly/Documents/Sky/App",
-		"/home/fly/Documents/Sky/shaders",
-		"/home/fly/Documents/Sky/shaders/bin",
-		"/home/fly/Documents/Sky/Visual",
-		"/home/fly/Documents/Sky/Vulkan"
+		"/home/fly/Documents/Sky/Visuals"
 	],
 	"file_history":
 	[
-		"/home/fly/Documents/Sky/Visual/Visual.cpp",
-		"/home/fly/Documents/Sky/Vulkan/Vulkan.cpp",
+		"/home/fly/Documents/Sky/Visuals/Visuals.h",
+		"/home/fly/Documents/Sky/Visuals/Renderer.h",
+		"/home/fly/Documents/Sky/Visuals/DebugUtils.h",
+		"/home/fly/Documents/Sky/Visuals/Device.h",
+		"/home/fly/Documents/Sky/Visuals/SwapChain.h",
+		"/home/fly/Documents/Sky/CMakeLists.txt",
+		"/home/fly/Documents/Sky/Visuals/GraphicsPipeline.h",
+		"/home/fly/Documents/Sky/Visuals/Vulkan.h",
+		"/home/fly/Documents/Sky/Visuals/Rendering",
+		"/home/fly/Documents/Sky/Visuals/Surface.h",
+		"/home/fly/Documents/Sky/build.sh",
+		"/home/fly/Documents/Sky/App/Shaders/Fragment.frag",
+		"/home/fly/Documents/Sky/App/Shaders/Vertex.vert",
+		"/home/fly/Documents/Sky/App/Shaders/bin/Vertex.vert",
+		"/home/fly/Documents/Sky/App/Shaders/build.sh",
+		"/home/fly/Documents/Sky/App/Shaders/Vertex.h",
+		"/home/fly/Documents/Sky/App/Shaders/Fragment.glsl",
+		"/home/fly/Documents/Sky/App/Shaders/bin/Vertex.h",
+		"/home/fly/Documents/Sky/Visuals/Window.h",
+		"/home/fly/Documents/Sky/main.cpp",
+		"/home/fly/Documents/Sky/Visuals/ValidationLayers.h",
+		"/home/fly/Documents/Sky/Visuals/Vulkan",
 		"/home/fly/Documents/Sky/Vulkan/Vulkan.h",
-		"/home/fly/Documents/Sky/Visual/Window.cpp",
+		"/home/fly/Documents/Sky/Sky.sublime-project",
+		"/home/fly/Documents/Sky/Visuals/Instance.h",
+		"/home/fly/Documents/Sky/Vulkan/ValidationLayers.h",
+		"/home/fly/Documents/Sky/Vulkan/SwapChain.h",
+		"/home/fly/Documents/Sky/Vulkan/Device.h",
 		"/home/fly/Documents/Sky/Visual/Window.h",
 		"/home/fly/Documents/Sky/App/main.cpp",
+		"/home/fly/Documents/Sky/Visual/Visual.h",
+		"/home/fly/Documents/Sky/Vulkan/SwapChain",
+		"/home/fly/Documents/Sky/Vulkan/Surface.h",
+		"/home/fly/Documents/Sky/Vulkan/Vulkan.cpp",
+		"/home/fly/Documents/Sky/Visual/Window.cpp",
+		"/home/fly/Documents/Sky/Visual/Visual.cpp",
+		"/home/fly/Documents/Sky/Vulkan/Surface.cpp",
+		"/home/fly/Documents/Sky/Vulkan/Device.cpp",
+		"/home/fly/Documents/Sky/Vulkan/ValidationLayers.cpp",
 		"/home/fly/Documents/Sky/shaders/default.frag",
 		"/home/fly/Documents/Sky/shaders/default.vert",
-		"/home/fly/Documents/Sky/Visual/Visual.h",
 		"/home/fly/.config/wofi/style.css",
 		"/home/fly/.config/wofi/config",
 		"/boot/limine/limine.conf",
-		"/home/fly/Documents/Sky/Sky.sublime-project",
 		"/home/fly/Documents/Sky/.github/ISSUE_TEMPLATE/bug_report.md",
 		"/home/fly/Documents/Sky-v2/Vulkan/Vulkan.cpp",
 		"/home/fly/Documents/Sky-v2/Vulkan/Vulkan.h",
@@ -379,9 +675,7 @@
 		"/home/fly/Documents/Sky/shaders/fragment.frag",
 		"/home/fly/Documents/Sky/include/Pipeline.h",
 		"/home/fly/.config/kitty/kitty.conf",
-		"/home/fly/Documents/Sky/build.sh",
 		"/home/fly/.config/sublime-text/Packages/User/Sky.sublime-build",
-		"/home/fly/Documents/Sky/CMakeLists.txt",
 		"/home/fly/Documents/Sky/.gitignore",
 		"/home/fly/Documents/Sky/shaders/compile.sh",
 		"/home/fly/Documents/Sky/src/main.cpp",
@@ -435,44 +729,15 @@
 		"/home/fly/Documents/Code/SkyLands/include/Vulkan/Swapchain.h",
 		"/home/fly/Documents/Code/SkyLands/include/Vulkan/Pipeline.h",
 		"/home/fly/Documents/Code/SkyLands/include/Vulkan/Context.h",
-		"/home/fly/Documents/Code/SkyLands/include/Resources/Mesh.h",
-		"/home/fly/Documents/Code/SkyLands/include/Renderer/Renderer.h",
-		"/home/fly/Documents/Code/SkyLands/src/Renderer/Renderer.cpp",
-		"/home/fly/Documents/Code/SkyLands/src/Engine/VulkanContext.cpp",
-		"/home/fly/Documents/Code/SkyLands/include/Engine/Window.h",
-		"/home/fly/Documents/Code/SkyLands/include/Engine/VulkanContext.h",
-		"/home/fly/Documents/Code/SkyLands/include/Engine/Device.h",
-		"/home/fly/Documents/Code/SkyLands/src/Engine/Device.cpp",
-		"/home/fly/Documents/Code/SkyLands/src/App/App.cpp",
-		"/home/fly/Documents/Code/SkyLands/shaders/bin/fragment.frag",
-		"/home/fly/Documents/Code/SkyLands/include/Vulkan/Device.h",
-		"/home/fly/Documents/Code/SkyLands/src/App.h",
-		"/home/fly/Documents/Code/SkyLands/include/Surface.h",
-		"/home/fly/Documents/Code/SkyLands/include/Vulkan.h",
-		"/home/fly/Documents/Code/SkyLands/shaders/bin/def/def.vert.spv",
-		"/home/fly/Documents/Code/test/littleVulkanEngine/src/first_app.cpp",
-		"/home/fly/Documents/Code/SkyLands/include/Validation.h",
-		"/home/fly/Documents/Code/SkyLands/include/Application.h",
-		"/home/fly/Documents/Code/SkyLands/build.sh",
-		"/home/fly/Documents/Code/SkyLands/src/game.cpp",
-		"/home/fly/Documents/Code/SkyLands/include/SkyLands.h",
-		"/home/fly/.config/sublime-text/Packages/User/Dark Knight.sublime-color-scheme",
-		"/home/fly/.config/sublime-text/Packages/Dark Knight Color Scheme/Dark Knight.sublime-color-scheme",
-		"/home/fly/Documents/Moto/t2/lineage-22.1-20250609-UNOFFICIAL-amogus_doha/payload_properties.txt",
-		"/home/fly/Documents/Moto/links.txt",
-		"/home/fly/Documents/Moto/t2/Motorola_Moto_G8_Plus_XT2019-1_DOHA_PPIS29.65-24-2_(by_motostockrom.com)/Motorola_Moto_G8_Plus_XT2019-1_DOHA_PPIS29.65-24-2/Firmware/flashfile.bat",
-		"/home/fly/Documents/Moto/t2/Motorola_G8_Plus_XT2019-2_DS_RETBR_DOHA_QPIS30.28-Q3-28-26-1/How to Flash.txt",
-		"/home/fly/Documents/Moto/bootimg/ramdisk/init.rc",
-		"/home/fly/Documents/Moto/bootimg/ramdisk/fstab.qcom",
-		"/home/fly/.config/ghostty/config"
+		"/home/fly/Documents/Code/SkyLands/include/Resources/Mesh.h"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 31.0
 	},
 	"find_in_files":
 	{
-		"height": 134.0,
+		"height": 319.0,
 		"where_history":
 		[
 			""
@@ -483,102 +748,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"m_height",
-			"D",
-			"starts",
-			"Window",
-			"Draw",
-			"u",
-			"}",
-			"gitignore",
-			"Vulkan",
-			"Visuals",
-			"retrn",
-			"MAX_FRAMES_IN_FLIGHT",
-			"m_currentFrame",
-			"VkPipelineShaderStageCreateInfo vertShaderStageInfo{};\n        vertShaderStageInfo.sType = VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_CREATE_INFO;\n        vertShaderStageInfo.stage = VK_SHADER_STAGE_VERTEX_BIT;\n        vertShaderStageInfo.module = vertShaderModule;\n        vertShaderStageInfo.pName = \"main\";\n\n        VkPipelineShaderStageCreateInfo fragShaderStageInfo{};\n        fragShaderStageInfo.sType = VK_STRUCTURE_TYPE_PIPELINE_SHADER_STAGE_CREATE_INFO;\n        fragShaderStageInfo.stage = VK_SHADER_STAGE_FRAGMENT_BIT;\n        fragShaderStageInfo.module = fragShaderModule;\n        fragShaderStageInfo.pName = \"main\";\n\n        VkPipelineShaderStageCreateInfo shaderStages[] = {vertShaderStageInfo, fragShaderStageInfo};\n",
-			"VkDevice",
-			"m_device",
-			"VkDevice",
-			"m_device",
-			"VK_NULL_HANDLE",
-			"VkSurfaceKHR",
-			"VkFormat",
-			";\n",
+			"imageAvailableSemaphores",
+			"semaphoreInfo",
+			"m_swapChainFramebuffers",
+			"m_swapChainImageViews",
+			"m_swapChainImages",
+			"VkFence",
+			"m_inFlightFence",
+			"inFlightFence",
+			");\n",
+			"vkCreateFence",
+			"graphicsQueue",
+			"swapChainExtent",
+			"renderPass",
+			"imageIndex",
+			"commandBuffer",
+			"CommandBuffer",
+			"commandBuffer",
+			"presentInfo",
+			"submitInfo",
+			"VK_SUCCESS",
+			"VkSemaphore",
 			"VkPipeline",
-			"m_swapChain",
+			"VkCommandBuffer",
+			"CommandB",
+			"VK_SUCCESS",
+			"viewport",
+			"renderPassInfo",
+			"beginInfo",
+			"allocInfo",
+			"VkCommandPool",
+			"VkPhysicalDevice",
+			"m_commandBuffer",
 			"VkExtent2D",
-			"vkDestroyRenderPass",
-			"pipelineLayoutInfo",
-			"imageFormat",
 			"VkDevice",
+			"   ",
+			"swapChainFramebuffers",
+			"std::vector<VkFramebuffer> ",
+			"framebufferInfo",
+			"swapChainImageViews",
+			"m_graphicsPipeline",
+			"pipelineInfo",
 			"pipelineLayout",
-			"m_pipelineLayout",
-			"pipelineLayout",
-			"device",
+			"VkRenderPass",
+			"VkFormat",
+			"VK_SUCCESS",
+			"renderPassInfo",
+			"renderPass",
+			"colorAttachment",
+			"VkPipelineLayout",
+			"blendEnable",
+			"VkPipelineDynamicStateCreateInfo",
+			"GraphicsPipeline",
 			"createShaderModule",
 			"readFile",
-			"Pipeline",
-			"CreateShaderModule",
-			"m_graphicsQueue",
-			"Pipeline",
-			"CreateGraphicsPipline",
-			"pwd",
-			"shell_cmd",
-			"Run",
-			"name",
-			"shell_cmd",
-			"variants",
-			"m_imageFormat",
-			"-------------------------------------------------------------",
+			"fi",
+			"std::vector<VkImageView> swapChainImageViews",
+			"VkFormat",
+			"VkDevice",
+			"swapChainImageFormat",
+			"m_images",
 			"ImageViews",
-			"---------------------------------------------------------------------",
-			"FindQueueFamilies",
-			"chooseExtent",
-			"createImageViews",
-			"createSwapChain",
-			"Swapchain",
-			"FindQueueFamilies",
-			"m_window",
-			" =",
-			"Surface",
-			"const",
-			"m_device",
-			"D",
+			"m_swapChainExtent",
+			"VkExtent2D",
+			"extent",
+			"surfaceFormat",
+			"VK_NULm_heightL_HANDLE",
 			"VK_NULL_HANDLE",
-			"instance",
-			"physicalDevice",
-			"optional",
-			"rateDeviceSuitability",
+			"m_swapChainExtent",
+			"swapChainImages",
+			"images",
+			"m_swapChain",
+			"VkDevice",
+			", ",
+			" *&",
+			"GLFWwindow",
+			"adequate",
+			"SwapChain",
 			"IsDeviceSuitable",
-			"PickPhysicalDevice",
-			"}\n",
-			"636262",
-			"7a7a7a",
-			"919396",
-			"VkInstance",
-			"inline",
-			"V",
-			"-------------------------------------------------",
-			"CheckValidationLayerSupport",
-			"VK_NULL_HANDLE",
-			"        // -------------------------------------------------\n",
-			"k",
-			"-------------------------------------------------",
-			"HEIGHT",
-			"height",
+			"swapChainAdequate",
+			"FindQueueFamilies",
+			"PhysicalDevice",
+			"m_swapChain",
+			"createInfo",
+			"=",
+			"device",
+			"details",
+			"SwapChainSupportDetails",
+			"device",
+			"IsDeviceSuitable",
+			"brb",
+			"presentQueue",
+			"IsDeviceSuitable",
+			"FindQueueFamilies",
+			"m_surface",
+			"DebugUtils",
+			"identifier",
+			"graphicsQueue",
+			"debugMessenger",
+			"DebugUtils",
+			"validationLayersm_debugMessenger",
+			"validationLayers",
+			"device",
+			"  {",
+			"FindQueueFamilies",
+			"m_physicalDevice",
+			"debugMessenger",
+			"VkDebugUtilsMessengerEXT",
+			"debu",
+			"VK_DEBUG_UTILS_MESSAGE_SEVERITY_VERBOSE_BIT_EXT",
+			"De",
+			"CreateDebugUtilsMessengerEXT",
+			"VkDebugUtilsMessengerCreateInfoEXT",
+			"validationLayers",
+			"Visuals",
 			"m_instance",
-			"headers",
-			"SkyLands",
-			"lines",
-			" \n",
-			"lines",
-			"select",
-			"F3 Quick Find (find current word)\nAlt F3  Quick find all\nCtrl E  Use selection for find\nCtrl Shift E    Use selection for replace\nCtrl Shift F    Find in files\nF4  Next result (find in files)",
-			"selection",
-			"Use",
-			"Previous",
-			"function"
+			"debug",
+			"instance",
+			"creteInfo",
+			"Visuals",
+			"appInfo",
+			"apiVersion",
+			"m_name",
+			"CrCreateCreateea",
+			"Create",
+			"uint32_t",
+			"m_window",
+			"Instance",
+			"window"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -603,16 +900,113 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Visuals/Visuals.h",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2460,
+								2460
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html, text.xml"
+								},
+								{
+									"rhs_empty": true,
+									"selector": "punctuation.accessor"
+								},
+								{
+									"characters": ".<>:\"/*",
+									"selector": "punctuation.accessor | (meta.preprocessor.include string - punctuation.definition.string.end)",
+									"server": "clangd"
+								}
+							],
+							"lsp_active": true,
+							"lsp_uri": "file:///home/fly/Documents/Sky/Visuals/Visuals.h",
+							"show_definitions": false,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1153.5,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Visuals/SwapChain.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14093,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3713,
+								3713
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html, text.xml"
+								},
+								{
+									"rhs_empty": true,
+									"selector": "punctuation.accessor"
+								},
+								{
+									"characters": ".<>:\"/*",
+									"selector": "punctuation.accessor | (meta.preprocessor.include string - punctuation.definition.string.end)",
+									"server": "clangd"
+								}
+							],
+							"lsp_active": true,
+							"lsp_uri": "file:///home/fly/Documents/Sky/Visuals/SwapChain.h",
+							"show_definitions": false,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 1237.0,
+						"translation.y": 1973.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 35.0
+		"height": 31.0
 	},
 	"input":
 	{
-		"height": 54.0
+		"height": 109.0
 	},
 	"layout":
 	{
@@ -653,7 +1047,7 @@
 	},
 	"output.exec":
 	{
-		"height": 53.0,
+		"height": 44.0,
 		"history":
 		[
 		]
@@ -676,7 +1070,7 @@
 	"project": "Sky.sublime-project",
 	"replace":
 	{
-		"height": 378.0
+		"height": 224.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -686,36 +1080,224 @@
 		"selected_items":
 		[
 			[
+				"",
+				"Visuals/Visuals.h"
+			],
+			[
+				"swa",
+				"Visuals/SwapChain.h"
+			],
+			[
+				"v",
+				"Visuals/Visuals.h"
+			],
+			[
+				"vis",
+				"Visuals/Visuals.h"
+			],
+			[
+				"s",
+				"Visuals/SwapChain.h"
+			],
+			[
+				"re",
+				"Visuals/Renderer.h"
+			],
+			[
+				"visual",
+				"Visuals/Visuals.h"
+			],
+			[
+				"vi",
+				"Visuals/Vulkan.h"
+			],
+			[
+				"sw",
+				"Visuals/SwapChain.h"
+			],
+			[
+				"g",
+				"Visuals/GraphicsPipeline.h"
+			],
+			[
+				"de",
+				"Visuals/Device.h"
+			],
+			[
+				"gp",
+				"Visuals/GraphicsPipeline.h"
+			],
+			[
+				"ver",
+				"App/Shaders/Vertex.h"
+			],
+			[
+				"GraphicsPipeline.h",
+				"Visuals/GraphicsPipeline.h"
+			],
+			[
+				"VIS",
+				"Visuals/Visuals.h"
+			],
+			[
+				"d",
+				"Visuals/Device.h"
+			],
+			[
+				"Swa",
+				"Visuals/SwapChain.h"
+			],
+			[
+				"wi",
+				"Visuals/Window.h"
+			],
+			[
+				"sure",
+				"Visuals/Surface.h"
+			],
+			[
+				"SWS",
+				"Visuals/SwapChain.h"
+			],
+			[
+				"cis",
+				"CMakeLists.txt"
+			],
+			[
+				"sur",
+				"Visuals/Surface.h"
+			],
+			[
+				"wind",
+				"Visuals/Window.h"
+			],
+			[
+				"wid",
+				"Visuals/Window.h"
+			],
+			[
+				"su",
+				"Visuals/Surface.h"
+			],
+			[
+				"main",
+				"main.cpp"
+			],
+			[
+				"visu",
+				"Visuals/Visuals.h"
+			],
+			[
+				"vul",
+				"Visuals/Vulkan.h"
+			],
+			[
+				"va",
+				"Visuals/ValidationLayers.h"
+			],
+			[
+				"vula",
+				"Visuals/Vulkan.h"
+			],
+			[
+				"vus",
+				"Visuals/Visuals.h"
+			],
+			[
+				"vu",
+				"Visuals/Vulkan.h"
+			],
+			[
+				"ma",
+				"main.cpp"
+			],
+			[
+				"w",
+				"Visuals/Window.h"
+			],
+			[
+				"Sw",
+				"Vulkan/SwapChain.h"
+			],
+			[
+				"DE",
+				"Vulkan/Device.h"
+			],
+			[
+				"De",
+				"Vulkan/Device.h"
+			],
+			[
+				"dev",
+				"Vulkan/Device.h"
+			],
+			[
+				"S",
+				"Vulkan/SwapChain.h"
+			],
+			[
+				"Sa",
+				"Vulkan/SwapChain.h"
+			],
+			[
+				"Swap",
+				"Vulkan/SwapChain.h"
+			],
+			[
+				"vulka",
+				"Vulkan/Vulkan.h"
+			],
+			[
+				"surf",
+				"Vulkan/Surface.cpp"
+			],
+			[
+				"vulk",
+				"Vulkan/Vulkan.cpp"
+			],
+			[
+				"vulkan",
+				"Vulkan/Vulkan.cpp"
+			],
+			[
+				"ap",
+				"App/main.cpp"
+			],
+			[
+				"win",
+				"Visual/Window.h"
+			],
+			[
+				"widn",
+				"Visual/Window.cpp"
+			],
+			[
+				"windo",
+				"Visual/Window.h"
+			],
+			[
+				"vuak",
+				"Vulkan/Vulkan.cpp"
+			],
+			[
+				"vs",
+				"Visual/Visual.cpp"
+			],
+			[
+				"window",
+				"Visual/Window.h"
+			],
+			[
+				"visul",
+				"Visual/Visual.cpp"
+			],
+			[
 				"app",
 				"App/main.cpp"
 			],
 			[
-				"ma",
-				"App/main.cpp"
-			],
-			[
-				"vis",
-				"Visual/Visual.h"
-			],
-			[
-				"vulka",
-				"Vulkan/Vulkan.cpp"
-			],
-			[
-				"re",
-				"include/Renderer.h"
-			],
-			[
 				"c",
 				"include/CommandBuffers.h"
-			],
-			[
-				"",
-				"#define GLFW_INCLUDE_VULKAN"
-			],
-			[
-				"ap",
-				"include/App.h"
 			],
 			[
 				"p",
@@ -730,36 +1312,12 @@
 				"include/Pipeline.h"
 			],
 			[
-				"swa",
-				"include/Swapchain.h"
-			],
-			[
-				"de",
-				"include/Device.h"
-			],
-			[
-				"ver",
-				"shaders/vertex.vert"
-			],
-			[
-				"s",
-				"include/Swapchain.h"
-			],
-			[
 				"se",
 				"include/Surface.h"
 			],
 			[
-				"v",
-				"include/Vulkan.h"
-			],
-			[
 				"V",
 				"include/ValidationLayers.h"
-			],
-			[
-				"vu",
-				"include/Vulkan.h"
 			],
 			[
 				"bu",
@@ -772,10 +1330,6 @@
 			[
 				"ren",
 				"src/Renderer.cpp"
-			],
-			[
-				"win",
-				"src/Window.cpp"
 			],
 			[
 				"comm",
@@ -806,10 +1360,6 @@
 				"src/Resources/Buffer.cpp"
 			],
 			[
-				"sw",
-				"include/Swapchain.h"
-			],
-			[
 				"swap",
 				"src/Swapchain.cpp"
 			],
@@ -820,18 +1370,6 @@
 			[
 				"pi",
 				"src/Pipeline.cpp"
-			],
-			[
-				"window",
-				"src/Window.cpp"
-			],
-			[
-				"wind",
-				"include/Window.h"
-			],
-			[
-				"main",
-				"src/main.cpp"
 			],
 			[
 				"des",
@@ -870,12 +1408,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"~/Documents/Sky/Sky.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
@@ -895,7 +1437,7 @@
 	"show_open_files": false,
 	"show_tabs": false,
 	"side_bar_visible": true,
-	"side_bar_width": 175.0,
+	"side_bar_width": 124.0,
 	"status_bar_visible": false,
 	"template_settings":
 	{

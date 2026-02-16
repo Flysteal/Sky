@@ -8,9 +8,14 @@ if [[ ! -x "$0" ]]; then
 fi
 
 RUN_AFTER_BUILD=false
+COMPILE_SHADERS=false
 for arg in "$@"; do
     if [[ "$arg" == "-x" ]]; then
         RUN_AFTER_BUILD=true
+        break
+    fi
+    if [[ "$arg" == "-s" ]]; then
+        COMPILE_SHADERS=true
         break
     fi
 done
@@ -24,4 +29,8 @@ EXECUTABLE="$SCRIPT_DIR/build/SkyLands"
 
 if $RUN_AFTER_BUILD; then
     kitty -e bash -c "\"$EXECUTABLE\"; read"
+fi
+
+if $COMPILE_SHADERS; then
+    $SCRIPT_DIR/App/Shaders/build.sh
 fi
